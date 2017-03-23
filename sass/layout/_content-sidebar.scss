@@ -1,0 +1,11 @@
+.site-content {
+	@extend .mdl-grid;
+}
+
+.content-area {
+	@extend .mdl-cell, .mdl-cell--9-col;
+}
+
+.widget-area {
+	@extend .mdl-cell, .mdl-cell--3-col;
+}
