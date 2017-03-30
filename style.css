@@ -11342,6 +11342,10 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
+.site {
+  -ms-word-wrap: break-word;
+  word-wrap: break-word; }
+
 .sticky {
   display: block; }
 
@@ -11390,6 +11394,11 @@ embed,
 iframe,
 object {
   max-width: 100%; }
+
+img {
+  height: auto;
+  max-width: 100%;
+  display: block; }
 
 /*--------------------------------------------------------------
 ## Captions
